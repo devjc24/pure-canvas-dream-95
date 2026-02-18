@@ -15,6 +15,7 @@ import Referrals from "./pages/Referrals";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import ReferralRedirect from "./pages/ReferralRedirect";
+import Landing from "./pages/Landing";
 import AdminDashboard from "./pages/AdminDashboard";
 import AdminUsers from "./pages/AdminUsers";
 import AdminUserDetail from "./pages/AdminUserDetail";
@@ -81,6 +82,7 @@ const App = () => (
         <CryptoPrefetcher />
         <BrowserRouter>
           <Routes>
+            <Route path="/landing" element={<Landing />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path="/r/:code" element={<ReferralRedirect />} />

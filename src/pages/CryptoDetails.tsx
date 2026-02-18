@@ -1,6 +1,6 @@
 import { MainLayout } from "@/components/layout/MainLayout";
 import { motion } from "framer-motion";
-import { ArrowLeft, Coins, TrendingDown, TrendingUp, LineChart } from "lucide-react";
+import { ArrowLeft, Coins, TrendingDown, TrendingUp, LineChart as LineChartIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useNavigate, useParams } from "react-router-dom";
 import {
@@ -121,7 +121,7 @@ export default function CryptoDetails() {
               className="gap-2"
               disabled={!crypto}
             >
-              <LineChart className="h-4 w-4" />
+              <LineChartIcon className="h-4 w-4" />
               Negociar
             </Button>
             <Button variant="outline" onClick={() => navigate("/crypto")} className="gap-2">
