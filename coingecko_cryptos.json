@@ -1,0 +1,24 @@
+﻿
+
+StatusCode        : 200
+StatusDescription : OK
+Content           : [{"id":"bitcoin","symbol":"btc","name":"Bitcoin","image":"https://coin-images.coingecko.com/coins/images/1/large/bitcoin.png?1696501400","current_pric
+                    e":346323,"market_cap":6933073157821,"market_cap_r...
+RawContent        : HTTP/1.1 200 OK
+                    Transfer-Encoding: chunked
+                    Connection: keep-alive
+                    x-frame-options: SAMEORIGIN
+                    x-xss-protection: 0
+                    x-content-type-options: nosniff
+                    x-download-options: noopen
+                    x-permitted-cross-do...
+Forms             : {}
+Headers           : {[Transfer-Encoding, chunked], [Connection, keep-alive], [x-frame-options, SAMEORIGIN], [x-xss-protection, 0]...}
+Images            : {}
+InputFields       : {}
+Links             : {}
+ParsedHtml        : System.__ComObject
+RawContentLength  : 15752
+
+
+
